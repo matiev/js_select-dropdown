@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .header {
+    /* background-color: lightblue; */
+  }
+  .header__nav {  
+    background-color: pink;
+    padding: 10px 0;
+  }
+  .header__block {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+  }
+  .header__content {
+    display: flex;
+  }
+  .header__inner {
+    margin: 10px 0;
+  }
+  
