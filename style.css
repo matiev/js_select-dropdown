@@ -9,11 +9,13 @@
     margin: 0 auto;
     padding: 0 15px;
   }
+  /*
   .header {
-    /* background-color: lightblue; */
+    background-color: lightblue;
   }
+  */
   .header__nav {  
-    background-color: pink;
+    background-color: rosybrown;
     padding: 10px 0;
   }
   .header__block {
