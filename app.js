@@ -1,26 +1,30 @@
-let select = document.querySelector('select'),
-		options = document.querySelectorAll('select option'),
-    headerInner = document.querySelector('.header__inner'),
-    headerInnerItems = document.querySelectorAll('.header__inner-item'),
-    inner = [...headerInner.children];
+let select = document.querySelectorAll('select option');
+let content = document.querySelector('.content__inner');
+let contentItems = document.querySelectorAll('.content__item');
+let cloneC = [...content.children];
+// console.log(cloneC);
 
-headerInner.textContent = '';
+content.textContent = '';
 
-window.addEventListener('DOMContentLoaded', sl);
-select.addEventListener('change', sl);
+contentItems.forEach((item, v) => {
+  item.setAttribute('id', select[v].value)
+});
 
-function sl() {
-	headerInner.textContent = '';
-	options.forEach(item => {
-  	if (item.selected) {
-    	let iv = item.value;
-      
-      inner.forEach(item => {
-      	if (iv === item.getAttribute('data-it')) {
-        	headerInner.append(item)
+window.addEventListener('DOMContentLoaded', sf);
+window.addEventListener('change', sf);
+
+function sf() {
+  content.textContent = '';
+  select.forEach(item => {
+    
+    if (item.selected) {
+      let sei = item;      
+      cloneC.forEach(item => {
+        if (sei.value === item.getAttribute('id')) {
+          content.append(item)
         }
       })
-      
     }
+
   })
 }
