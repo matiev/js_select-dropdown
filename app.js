@@ -5,6 +5,7 @@ let cloneC = [...content.children];
 // console.log(cloneC);
 
 let c = '';
+let d = '';
 
 content.textContent = '';
 
