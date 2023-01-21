@@ -4,6 +4,8 @@ let contentItems = document.querySelectorAll('.content__item');
 let cloneC = [...content.children];
 // console.log(cloneC);
 
+let c = '';
+
 content.textContent = '';
 
 contentItems.forEach((item, v) => {
