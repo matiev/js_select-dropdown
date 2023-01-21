@@ -6,7 +6,6 @@ let cloneC = [...content.children];
 
 let c = '';
 let d = '';
-let e = '';
 
 content.textContent = '';
 
