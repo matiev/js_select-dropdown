@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font: 100;
   margin: 0;
+  font: 100;
 }
 .container {
   max-width: 500px;
