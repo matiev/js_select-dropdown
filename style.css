@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font: optional;
 }
 .container {
   max-width: 500px;
