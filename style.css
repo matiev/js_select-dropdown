@@ -4,8 +4,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  overflow: hidden;
   font: 1em sans-serif;
+  overflow: hidden;
 }
 .container {
   max-width: 500px;
